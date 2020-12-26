@@ -1,0 +1,140 @@
+/*---------------------------------empieza el codigo mio--------------------*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.contenedor {
+  width: 100%;
+  height: 100vmax;
+}
+
+#topbar {
+  height: 2em;
+  width: 100%;
+  background-color: cornflowerblue;
+  border-radius: 0.5em;
+  text-align: center;
+}
+
+#topbar li {
+  color: black;
+  width: calc(100% / 4);
+  text-decoration: none;
+  display: inline;
+  float: left;
+  margin-top: 0.5em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  padding: 1em 1em;
+  margin: 1em 1em;
+  background-image: url(fondos/fondopagina.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 1em;
+  box-sizing: border-box;
+}
+
+.main img {
+  background-size: auto;
+}
+
+#cabecera {
+  height: 2em;
+  width: 80%;
+  margin: 0.1em;
+  padding: 0.1em 0.1em 3em 0.1em;
+  padding-bottom: 2em;
+}
+
+.cuadros {
+  padding: 2em 0em 15em 2em;
+}
+
+.cuadro {
+  width: calc(100% / 4);
+  height: 10em;
+  padding: 0.4em;
+  margin: 0.8em;
+  overflow: auto;
+  display: inline-block;
+  float: left;
+  box-shadow: 5px 5px 10px black;
+  border-radius: 5px;
+}
+
+.Productos {
+  height: 20em;
+  width: 100%;
+}
+
+.Productos img {
+  float: left;
+  height: 8em;
+  width: auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px black;
+}
+
+.card h3 {
+  color: black;
+  font-size: 1em;
+  text-align: center;
+  margin-top: 8em;
+}
+
+.card {
+  float: left;
+  margin: 1.5em;
+}
+
+.header #contacto p {
+  padding: 1em;
+}
+
+@media (max-width: 500px) {
+  .topbar li {
+    text-align: center;
+    height: auto;
+    color: maroon;
+  }
+
+  .cuadro {
+    width: auto;
+    display: block;
+    margin-left: 0%;
+  }
+
+  .cuadros {
+    margin-top: 4em;
+  }
+
+  .Productos {
+    margin-top: 2em;
+    display: inline-block;
+  }
+
+  .contenedor {
+    height: auto;
+  }
+
+  .header {
+    margin-top: 15em;
+  }
+
+  #contacto {
+  }
+}

@@ -1,0 +1,24 @@
+#contenedor {
+  height: 37em;
+  width: 79em;
+  background-image: url(fondos/fondopagina4.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#topbar {
+  padding-left: 7em;
+  padding-top: 2em;
+  font-size: 2em;
+}
+
+th,
+td {
+  border: solid black 0.2em;
+  padding: 0.4em;
+  text-align: center;
+}
+table {
+  margin-left: 15em;
+  margin-top: 1.8em;
+}

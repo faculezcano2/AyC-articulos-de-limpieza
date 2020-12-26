@@ -1,0 +1,24 @@
+#topbar {
+  height: 2em;
+  width: 100%;
+  background-color: cornflowerblue;
+}
+
+#topbar li {
+  color: black;
+  display: inline-block;
+  margin-top: 0.2em;
+  margin: 0.2em 0em 5em 7em;
+  padding: 0.3em 6em 2em 3em;
+}
+
+#topbar a {
+  text-decoration: none;
+  color: black;
+}
+
+#ubicacion {
+  height: auto;
+  width: auto;
+  margin: 3em 3em 5em 17em;
+}
